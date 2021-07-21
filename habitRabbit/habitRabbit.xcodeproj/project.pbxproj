@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8324A9AB26A870C1001488C8 /* habitTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8324A9AA26A870C1001488C8 /* habitTrackerViewController.swift */; };
 		832B61AB26A7439A0060AEB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B61AA26A7439A0060AEB1 /* AppDelegate.swift */; };
 		832B61AD26A7439A0060AEB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B61AC26A7439A0060AEB1 /* SceneDelegate.swift */; };
 		832B61AF26A7439A0060AEB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B61AE26A7439A0060AEB1 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8324A9AA26A870C1001488C8 /* habitTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habitTrackerViewController.swift; sourceTree = "<group>"; };
 		832B61A726A7439A0060AEB1 /* habitRabbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = habitRabbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		832B61AA26A7439A0060AEB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		832B61AC26A7439A0060AEB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				832B61AC26A7439A0060AEB1 /* SceneDelegate.swift */,
 				832B61AE26A7439A0060AEB1 /* ViewController.swift */,
 				832B61B026A7439A0060AEB1 /* Main.storyboard */,
+				8324A9AA26A870C1001488C8 /* habitTrackerViewController.swift */,
 				832B61B626A7439E0060AEB1 /* Assets.xcassets */,
 				832B61B826A7439E0060AEB1 /* LaunchScreen.storyboard */,
 				832B61BB26A7439E0060AEB1 /* Info.plist */,
@@ -265,6 +268,7 @@
 				832B61AF26A7439A0060AEB1 /* ViewController.swift in Sources */,
 				832B61AB26A7439A0060AEB1 /* AppDelegate.swift in Sources */,
 				832B61AD26A7439A0060AEB1 /* SceneDelegate.swift in Sources */,
+				8324A9AB26A870C1001488C8 /* habitTrackerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

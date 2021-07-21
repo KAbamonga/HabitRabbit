@@ -16,10 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-20 at 2.06.52 PM" translatesAutoresizingMaskIntoConstraints="NO" id="fWK-dz-FTh">
-                                <rect key="frame" x="29" y="330" width="356" height="185"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ls0-HJ-xmS">
                                 <rect key="frame" x="87" y="475" width="241" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -28,6 +24,10 @@
                                     <segue destination="duI-Cs-u3S" kind="show" id="rgQ-Hx-lqs"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 10.22.48 AM" translatesAutoresizingMaskIntoConstraints="NO" id="fWK-dz-FTh">
+                                <rect key="frame" x="14" y="314" width="387" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.62352941176470589" green="0.77254901960784317" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -52,7 +52,7 @@
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jKP-VY-bSt">
                                 <rect key="frame" x="48" y="438" width="251" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.98039215690000003" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -139,6 +139,72 @@
             </objects>
             <point key="canvasLocation" x="934.78260869565224" y="833.70535714285711"/>
         </scene>
+        <!--Habit Tracker View Controller-->
+        <scene sceneID="Ygb-bQ-7LJ">
+            <objects>
+                <viewController id="N9Q-ou-jgM" customClass="habitTrackerViewController" customModule="habitRabbit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8h6-RI-cF3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 10.35.27 AM" translatesAutoresizingMaskIntoConstraints="NO" id="xsK-8t-nzY">
+                                <rect key="frame" x="11" y="70" width="392" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 10.35.36 AM" translatesAutoresizingMaskIntoConstraints="NO" id="exU-Aj-whj">
+                                <rect key="frame" x="13" y="209" width="292" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 10.35.52 AM" translatesAutoresizingMaskIntoConstraints="NO" id="FJB-65-LZT">
+                                <rect key="frame" x="13" y="392" width="329" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 10.36.00 AM" translatesAutoresizingMaskIntoConstraints="NO" id="VSc-Ck-M0n">
+                                <rect key="frame" x="13" y="584" width="279" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLA-fr-T2A">
+                                <rect key="frame" x="35" y="302" width="70" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="emptyCup-1"/>
+                                <connections>
+                                    <action selector="emptyGlass:" destination="N9Q-ou-jgM" eventType="touchUpInside" id="xfH-Op-rkm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdC-Q6-MFC">
+                                <rect key="frame" x="221" y="302" width="70" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="emptyCup-1"/>
+                                <connections>
+                                    <action selector="emptyGlass3:" destination="N9Q-ou-jgM" eventType="touchUpInside" id="znh-ex-KPf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1yZ-Ft-8AD">
+                                <rect key="frame" x="310" y="302" width="70" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="emptyCup-1"/>
+                                <connections>
+                                    <action selector="emptyGlass4:" destination="N9Q-ou-jgM" eventType="touchUpInside" id="D2u-e1-7jo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0iC-MF-yhS">
+                                <rect key="frame" x="130" y="302" width="70" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="emptyCup-1"/>
+                                <connections>
+                                    <action selector="emptyGlass2:" destination="N9Q-ou-jgM" eventType="touchUpInside" id="ZQJ-Dc-SwR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QQl-7G-ecp"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="0.95294117649999999" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="GN7-GR-sUz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dlC-Sn-Bpa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1979.7101449275365" y="833.70535714285711"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="hpt-dx-DqC">
             <objects>
@@ -213,6 +279,9 @@
                                 <rect key="frame" x="43" y="471" width="325" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Screen Shot 2021-07-20 at 3.06.53 PM"/>
+                                <connections>
+                                    <segue destination="N9Q-ou-jgM" kind="show" id="h1b-Z1-Bcr"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-20 at 3.11.26 PM" translatesAutoresizingMaskIntoConstraints="NO" id="sky-bx-Njc">
                                 <rect key="frame" x="86" y="120" width="242" height="106"/>
@@ -245,7 +314,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Screen Shot 2021-07-20 at 2.06.52 PM" width="1448" height="487"/>
         <image name="Screen Shot 2021-07-20 at 2.28.08 PM" width="510" height="176"/>
         <image name="Screen Shot 2021-07-20 at 2.39.34 PM" width="508" height="118"/>
         <image name="Screen Shot 2021-07-20 at 2.56.35 PM" width="194" height="202"/>
@@ -258,6 +326,12 @@
         <image name="Screen Shot 2021-07-20 at 8.27.28 PM" width="576" height="230"/>
         <image name="Screen Shot 2021-07-20 at 8.27.56 PM" width="518" height="34"/>
         <image name="Screen Shot 2021-07-20 at 8.47.46 PM" width="402" height="126"/>
+        <image name="Screen Shot 2021-07-21 at 10.22.48 AM" width="1406" height="278"/>
+        <image name="Screen Shot 2021-07-21 at 10.35.27 AM" width="870" height="186"/>
+        <image name="Screen Shot 2021-07-21 at 10.35.36 AM" width="426" height="48"/>
+        <image name="Screen Shot 2021-07-21 at 10.35.52 AM" width="472" height="52"/>
+        <image name="Screen Shot 2021-07-21 at 10.36.00 AM" width="398" height="48"/>
+        <image name="emptyCup-1" width="341" height="654"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
