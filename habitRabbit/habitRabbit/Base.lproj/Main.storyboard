@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -88,7 +87,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="e3e-xA-BYG"/>
                     <connections>
-                        <outlet property="displayName" destination="fR1-gs-hZz" id="P3W-q9-7Bp"/>
+                        <outlet property="displayName" destination="fR1-gs-hZz" id="yQO-JZ-cfc"/>
                         <outlet property="nameTextBox" destination="jKP-VY-bSt" id="f60-cX-KxJ"/>
                     </connections>
                 </viewController>
@@ -132,7 +131,7 @@
                                 <state key="normal" title="🤬"/>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-20 at 7.55.57 PM" translatesAutoresizingMaskIntoConstraints="NO" id="NpF-8f-cQY">
-                                <rect key="frame" x="11" y="70" width="392" height="186"/>
+                                <rect key="frame" x="11" y="90" width="392" height="186"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-20 at 8.01.26 PM" translatesAutoresizingMaskIntoConstraints="NO" id="EB0-0N-qNq">
@@ -150,6 +149,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                 <state key="normal" title="😱"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XwW-cc-kNr">
+                                <rect key="frame" x="322" y="20" width="81" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="home"/>
+                                <connections>
+                                    <segue destination="ECd-Zt-zZu" kind="show" id="tRh-EY-Vjp"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Pgh-KL-Vrs"/>
@@ -281,6 +288,14 @@
                                     <action selector="dirty2:" destination="N9Q-ou-jgM" eventType="touchUpInside" id="7dz-BN-AKH"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qYO-wO-oTZ">
+                                <rect key="frame" x="322" y="20" width="81" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="home"/>
+                                <connections>
+                                    <segue destination="ECd-Zt-zZu" kind="show" id="Kgh-ph-aVW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QQl-7G-ecp"/>
                         <color key="backgroundColor" red="0.99607843139999996" green="0.95294117649999999" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -300,15 +315,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-20 at 7.55.57 PM" translatesAutoresizingMaskIntoConstraints="NO" id="MgI-HH-tDE">
-                                <rect key="frame" x="11" y="20" width="392" height="186"/>
+                                <rect key="frame" x="11" y="50" width="392" height="186"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-20 at 8.19.08 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Bwc-14-43z">
-                                <rect key="frame" x="115" y="284" width="185" height="74"/>
+                                <rect key="frame" x="115" y="314" width="185" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="😁" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mPq-Lx-GWl">
-                                <rect key="frame" x="167" y="186" width="81" height="90"/>
+                                <rect key="frame" x="167" y="216" width="81" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                 <nil key="textColor"/>
@@ -334,6 +349,14 @@
                                 <rect key="frame" x="115" y="683" width="183" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Screen Shot 2021-07-20 at 8.47.46 PM"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XcI-tl-XZw">
+                                <rect key="frame" x="322" y="20" width="81" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="home"/>
+                                <connections>
+                                    <segue destination="ECd-Zt-zZu" kind="show" id="Pc9-sM-TzJ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="F25-fi-ROO"/>
@@ -370,7 +393,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-20 at 3.11.26 PM" translatesAutoresizingMaskIntoConstraints="NO" id="sky-bx-Njc">
-                                <rect key="frame" x="84" y="65" width="242" height="106"/>
+                                <rect key="frame" x="86" y="110" width="242" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -383,22 +406,10 @@
             </objects>
             <point key="canvasLocation" x="1740.5797101449277" y="67.633928571428569"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="W5e-Hd-nfT">
-            <objects>
-                <viewController id="JfO-p1-t2j" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="eQc-WK-kJW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="WJU-Ob-zDB"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="joe-pI-f0g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2539" y="68"/>
-        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Pc9-sM-TzJ"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2021-07-20 at 2.28.08 PM" width="510" height="176"/>
         <image name="Screen Shot 2021-07-20 at 2.39.34 PM" width="508" height="118"/>
@@ -420,8 +431,6 @@
         <image name="carrot" width="500" height="500"/>
         <image name="dirtyTooth" width="632" height="631"/>
         <image name="emptyCup-1" width="341" height="654"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="home" width="512" height="512"/>
     </resources>
 </document>
