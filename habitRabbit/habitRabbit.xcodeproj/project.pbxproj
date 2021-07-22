@@ -17,6 +17,8 @@
 		832B61BA26A7439E0060AEB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 832B61B826A7439E0060AEB1 /* LaunchScreen.storyboard */; };
 		832B61C526A7439E0060AEB1 /* habitRabbitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B61C426A7439E0060AEB1 /* habitRabbitTests.swift */; };
 		832B61D026A7439E0060AEB1 /* habitRabbitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B61CF26A7439E0060AEB1 /* habitRabbitUITests.swift */; };
+		83580DDF26A9B1B7003F88C6 /* nameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83580DDE26A9B1B7003F88C6 /* nameViewController.swift */; };
+		83580DE126A9B452003F88C6 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83580DE026A9B452003F88C6 /* menuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		832B61CB26A7439E0060AEB1 /* habitRabbitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = habitRabbitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		832B61CF26A7439E0060AEB1 /* habitRabbitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habitRabbitUITests.swift; sourceTree = "<group>"; };
 		832B61D126A7439E0060AEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83580DDE26A9B1B7003F88C6 /* nameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nameViewController.swift; sourceTree = "<group>"; };
+		83580DE026A9B452003F88C6 /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				832B61AC26A7439A0060AEB1 /* SceneDelegate.swift */,
 				832B61AE26A7439A0060AEB1 /* ViewController.swift */,
 				832B61B026A7439A0060AEB1 /* Main.storyboard */,
+				83580DE026A9B452003F88C6 /* menuViewController.swift */,
+				83580DDE26A9B1B7003F88C6 /* nameViewController.swift */,
 				8324A9AA26A870C1001488C8 /* habitTrackerViewController.swift */,
 				832B61B626A7439E0060AEB1 /* Assets.xcassets */,
 				832B61B826A7439E0060AEB1 /* LaunchScreen.storyboard */,
@@ -265,9 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				832B61B526A7439A0060AEB1 /* habitRabbit.xcdatamodeld in Sources */,
+				83580DDF26A9B1B7003F88C6 /* nameViewController.swift in Sources */,
 				832B61AF26A7439A0060AEB1 /* ViewController.swift in Sources */,
 				832B61AB26A7439A0060AEB1 /* AppDelegate.swift in Sources */,
 				832B61AD26A7439A0060AEB1 /* SceneDelegate.swift in Sources */,
+				83580DE126A9B452003F88C6 /* menuViewController.swift in Sources */,
 				8324A9AB26A870C1001488C8 /* habitTrackerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
