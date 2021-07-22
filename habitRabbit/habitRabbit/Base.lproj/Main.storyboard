@@ -159,7 +159,7 @@
                                 <rect key="frame" x="13" y="392" width="329" height="146"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 10.36.00 AM" translatesAutoresizingMaskIntoConstraints="NO" id="VSc-Ck-M0n">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 8.47.57 PM" translatesAutoresizingMaskIntoConstraints="NO" id="VSc-Ck-M0n">
                                 <rect key="frame" x="13" y="584" width="279" height="133"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -169,6 +169,62 @@
                                 <state key="normal" image="emptyCup-1"/>
                                 <connections>
                                     <action selector="emptyGlass:" destination="N9Q-ou-jgM" eventType="touchUpInside" id="xfH-Op-rkm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bEa-Zf-DGK">
+                                <rect key="frame" x="20" y="666" width="117" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="dirtyTooth"/>
+                                <connections>
+                                    <action selector="dirty:" destination="N9Q-ou-jgM" eventType="touchUpInside" id="AcV-8t-VfE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PUX-uA-PdA">
+                                <rect key="frame" x="277" y="666" width="117" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="dirtyTooth"/>
+                                <connections>
+                                    <action selector="dirty3:" destination="N9Q-ou-jgM" eventType="touchUpInside" id="bTn-hv-ChN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIc-V0-7nC">
+                                <rect key="frame" x="20" y="488" width="70" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="carrot"/>
+                                <connections>
+                                    <action selector="carrot:" destination="N9Q-ou-jgM" eventType="touchUpInside" id="f8W-3x-eZQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xl2-xh-JTZ">
+                                <rect key="frame" x="90" y="488" width="70" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="carrot"/>
+                                <connections>
+                                    <action selector="carrot2:" destination="N9Q-ou-jgM" eventType="touchUpInside" id="UkX-ht-y1S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pi-EL-j34">
+                                <rect key="frame" x="168" y="488" width="70" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="carrot"/>
+                                <connections>
+                                    <action selector="carrot3:" destination="N9Q-ou-jgM" eventType="touchUpInside" id="r48-fg-N9w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F22-tD-qlw">
+                                <rect key="frame" x="246" y="488" width="70" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="carrot"/>
+                                <connections>
+                                    <action selector="carrot4:" destination="N9Q-ou-jgM" eventType="touchUpInside" id="fv8-UZ-rEd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8O-g5-4e7">
+                                <rect key="frame" x="318" y="488" width="70" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="carrot"/>
+                                <connections>
+                                    <action selector="carrot5:" destination="N9Q-ou-jgM" eventType="touchUpInside" id="jD3-ZM-bMk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdC-Q6-MFC">
@@ -193,6 +249,14 @@
                                 <state key="normal" image="emptyCup-1"/>
                                 <connections>
                                     <action selector="emptyGlass2:" destination="N9Q-ou-jgM" eventType="touchUpInside" id="ZQJ-Dc-SwR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11k-j5-7oc">
+                                <rect key="frame" x="152" y="666" width="117" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="dirtyTooth"/>
+                                <connections>
+                                    <action selector="dirty2:" destination="N9Q-ou-jgM" eventType="touchUpInside" id="7dz-BN-AKH"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -330,7 +394,9 @@
         <image name="Screen Shot 2021-07-21 at 10.35.27 AM" width="870" height="186"/>
         <image name="Screen Shot 2021-07-21 at 10.35.36 AM" width="426" height="48"/>
         <image name="Screen Shot 2021-07-21 at 10.35.52 AM" width="472" height="52"/>
-        <image name="Screen Shot 2021-07-21 at 10.36.00 AM" width="398" height="48"/>
+        <image name="Screen Shot 2021-07-21 at 8.47.57 PM" width="464" height="52"/>
+        <image name="carrot" width="500" height="500"/>
+        <image name="dirtyTooth" width="632" height="631"/>
         <image name="emptyCup-1" width="341" height="654"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

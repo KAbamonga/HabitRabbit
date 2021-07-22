@@ -36,6 +36,57 @@ class habitTrackerViewController: UIViewController {
         setButtonBackGround(view: sender, on:  #imageLiteral(resourceName: "emptyCup-1") , off:  #imageLiteral(resourceName: "filledCup ") , onOffStatus: isOn)
     }
     
+    @IBAction func carrot(_ sender: UIButton) {
+        isOn.toggle()
+    
+        setButtonBackGround(view: sender, on:  #imageLiteral(resourceName: "carrot") , off:  #imageLiteral(resourceName: "eatenCarrot") , onOffStatus: isOn)
+    }
+    
+    @IBAction func carrot2(_ sender: UIButton) {
+        isOn.toggle()
+    
+        setButtonBackGround(view: sender, on:  #imageLiteral(resourceName: "carrot") , off:  #imageLiteral(resourceName: "eatenCarrot") , onOffStatus: isOn)
+    }
+    
+    @IBAction func carrot3(_ sender: UIButton) {
+        isOn.toggle()
+    
+        setButtonBackGround(view: sender, on:  #imageLiteral(resourceName: "carrot") , off:  #imageLiteral(resourceName: "eatenCarrot") , onOffStatus: isOn)
+    }
+    
+    @IBAction func carrot4(_ sender: UIButton) {
+        isOn.toggle()
+    
+        setButtonBackGround(view: sender, on:  #imageLiteral(resourceName: "carrot") , off:  #imageLiteral(resourceName: "eatenCarrot") , onOffStatus: isOn)
+    }
+    
+    @IBAction func carrot5(_ sender: UIButton) {
+        isOn.toggle()
+    
+        setButtonBackGround(view: sender, on:  #imageLiteral(resourceName: "carrot") , off:  #imageLiteral(resourceName: "eatenCarrot") , onOffStatus: isOn)
+    }
+    
+    @IBAction func dirty(_ sender: UIButton) {
+        isOn.toggle()
+    
+        setButtonBackGround(view: sender, on:  #imageLiteral(resourceName: "dirtyTooth") , off:  #imageLiteral(resourceName: "cleanTooth") , onOffStatus: isOn)
+    }
+    
+    @IBAction func dirty2(_ sender: UIButton) {
+        isOn.toggle()
+    
+        setButtonBackGround(view: sender, on:  #imageLiteral(resourceName: "dirtyTooth") , off:  #imageLiteral(resourceName: "cleanTooth") , onOffStatus: isOn)
+
+    }
+    
+    @IBAction func dirty3(_ sender: UIButton) {
+        isOn.toggle()
+    
+        setButtonBackGround(view: sender, on:  #imageLiteral(resourceName: "dirtyTooth") , off:  #imageLiteral(resourceName: "cleanTooth") , onOffStatus: isOn)
+
+    }
+    
+    
     
     func setButtonBackGround  (view: UIButton, on: UIImage, off: UIImage, onOffStatus: Bool ) {
        switch onOffStatus {
